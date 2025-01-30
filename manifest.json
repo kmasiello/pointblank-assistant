@@ -469,18 +469,18 @@
       }
     },
     "ellmer": {
-      "Source": "github",
-      "Repository": null,
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "ellmer",
         "Title": "Chat with Large Language Models",
-        "Version": "0.1.0.9000",
-        "Authors@R": "c(\n    person(\"Hadley\", \"Wickham\", , \"hadley@posit.co\", role = c(\"aut\", \"cre\")),\n    person(\"Joe\", \"Cheng\", role = \"aut\"),\n    person(\"Aaron\", \"Jacobs\", role = \"aut\"),\n    person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\"))\n  )",
+        "Version": "0.1.0",
+        "Authors@R": "c(\n    person(\"Hadley\", \"Wickham\", , \"hadley@posit.co\", role = c(\"aut\", \"cre\")),\n    person(\"Joe\", \"Cheng\", role = \"aut\"),\n    person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\"))\n  )",
         "Description": "Chat with large language models from a range of providers\n  including 'Claude' <https://claude.ai>, 'OpenAI' <https://chatgpt.com>,\n  and more. Supports streaming, asynchronous calls, tool calling, and\n  structured data extraction.",
         "License": "MIT + file LICENSE",
         "URL": "https://ellmer.tidyverse.org, https://github.com/tidyverse/ellmer",
         "BugReports": "https://github.com/tidyverse/ellmer/issues",
-        "Imports": "cli, coro (>= 1.1.0), glue, httr2 (>= 1.1.0), jsonlite, later\n(>= 1.4.0), lifecycle, promises (>= 1.3.1), R6, rlang (>=\n1.1.0), S7 (>= 0.2.0)",
+        "Imports": "cli, coro (>= 1.1.0), glue, httr2 (>= 1.0.7), jsonlite, later\n(>= 1.4.0), promises (>= 1.3.1), R6, rlang (>= 1.1.0), S7 (>=\n0.2.0)",
         "Suggests": "base64enc, bslib, curl (>= 6.0.1), gitcreds, knitr, magick,\nopenssl, paws.common, rmarkdown, shiny, shinychat (>= 0.1.1),\ntestthat (>= 3.0.0), withr",
         "VignetteBuilder": "knitr",
         "Config/Needs/website": "tidyverse/tidytemplate, rmarkdown",
@@ -488,25 +488,15 @@
         "Config/testthat/parallel": "true",
         "Config/testthat/start-first": "test-provider-*",
         "Encoding": "UTF-8",
-        "Roxygen": "list(markdown = TRUE)",
         "RoxygenNote": "7.3.2",
-        "Collate": "'utils-S7.R' 'types.R' 'content.R' 'provider.R' 'as-json.R'\n'utils-coro.R' 'chat.R' 'content-image.R' 'content-tools.R'\n'ellmer-package.R' 'httr2.R' 'import-standalone-obj-type.R'\n'import-standalone-purrr.R' 'import-standalone-types-check.R'\n'interpolate.R' 'tools-def.R' 'turns.R' 'provider-openai.R'\n'provider-azure.R' 'provider-bedrock.R' 'provider-claude.R'\n'provider-cortex.R' 'provider-databricks.R'\n'provider-deepseek.R' 'provider-gemini.R' 'provider-github.R'\n'provider-groq.R' 'provider-ollama.R' 'provider-openrouter.R'\n'provider-perplexity.R' 'provider-snowflake.R'\n'provider-vllm.R' 'shiny.R' 'tokens.R' 'tools-def-auto.R'\n'utils-cat.R' 'utils-merge.R' 'utils.R' 'zzz.R'",
+        "Collate": "'utils-S7.R' 'types.R' 'content.R' 'provider.R' 'as-json.R'\n'utils-coro.R' 'chat.R' 'content-image.R' 'content-tools.R'\n'ellmer-package.R' 'httr2.R' 'import-standalone-obj-type.R'\n'import-standalone-purrr.R' 'import-standalone-types-check.R'\n'interpolate.R' 'tools-def.R' 'turns.R' 'provider-openai.R'\n'provider-azure.R' 'provider-bedrock.R' 'provider-claude.R'\n'provider-cortex.R' 'provider-databricks.R' 'provider-gemini.R'\n'provider-github.R' 'provider-groq.R' 'provider-ollama.R'\n'provider-perplexity.R' 'provider-vllm.R' 'shiny.R' 'tokens.R'\n'tools-def-auto.R' 'utils-cat.R' 'utils-merge.R' 'utils.R'\n'zzz.R'",
         "NeedsCompilation": "no",
-        "Packaged": "2025-01-27 19:59:57 UTC; katie",
-        "Author": "Hadley Wickham [aut, cre],\n  Joe Cheng [aut],\n  Aaron Jacobs [aut],\n  Posit Software, PBC [cph, fnd]",
+        "Packaged": "2025-01-07 23:15:32 UTC; hadleywickham",
+        "Author": "Hadley Wickham [aut, cre],\n  Joe Cheng [aut],\n  Posit Software, PBC [cph, fnd]",
         "Maintainer": "Hadley Wickham <hadley@posit.co>",
-        "Built": "R 4.4.1; ; 2025-01-27 19:59:58 UTC; unix",
-        "RemoteType": "github",
-        "RemoteHost": "api.github.com",
-        "RemoteRepo": "ellmer",
-        "RemoteUsername": "tidyverse",
-        "RemotePkgRef": "tidyverse/ellmer",
-        "RemoteRef": "HEAD",
-        "RemoteSha": "bdc63b19bb61c96e26f7348ffdbc235641dfcf10",
-        "GithubRepo": "ellmer",
-        "GithubUsername": "tidyverse",
-        "GithubRef": "HEAD",
-        "GithubSHA1": "bdc63b19bb61c96e26f7348ffdbc235641dfcf10"
+        "Repository": "RSPM",
+        "Date/Publication": "2025-01-09 13:50:05 UTC",
+        "Built": "R 4.4.0; ; 2025-01-10 04:39:09 UTC; unix"
       }
     },
     "fastmap": {
@@ -1413,7 +1403,7 @@
   },
   "files": {
     "app.R": {
-      "checksum": "d664f7dc558d444c25676a7f1365ec8b"
+      "checksum": "efef7c1637eab4b6203fb4d68769e81f"
     },
     "prompt-py.md": {
       "checksum": "31c4b6a1261442700b73c48790c613bd"

@@ -165,14 +165,9 @@
     },
     "ellmer": {
       "Package": "ellmer",
-      "Version": "0.1.0.9000",
-      "Source": "GitHub",
-      "RemoteType": "github",
-      "RemoteHost": "api.github.com",
-      "RemoteRepo": "ellmer",
-      "RemoteUsername": "tidyverse",
-      "RemotePkgRef": "tidyverse/ellmer",
-      "RemoteSha": "bdc63b19bb61c96e26f7348ffdbc235641dfcf10",
+      "Version": "0.1.0",
+      "Source": "Repository",
+      "Repository": "RSPM",
       "Requirements": [
         "R6",
         "S7",
@@ -182,11 +177,10 @@
         "httr2",
         "jsonlite",
         "later",
-        "lifecycle",
         "promises",
         "rlang"
       ],
-      "Hash": "ad6d86124cb502e85c4cdf48a50b408b"
+      "Hash": "4aabcd32a10f5afdb09c5f4210df95ef"
     },
     "fastmap": {
       "Package": "fastmap",
