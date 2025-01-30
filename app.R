@@ -20,6 +20,7 @@ ui <- page_sidebar(
 )
 
 server <- function(input, output, session) {
+  api_key <- Sys.getenv("ANTHROPIC_API_KEY")
   # Initialize chat with default system prompt (you can choose either Python or R as default)
   default_prompt <- paste(readLines("prompt-r.md"), collapse = "\n")
   chat_obj <- chat_claude(
