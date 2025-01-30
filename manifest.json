@@ -1412,12 +1412,6 @@
     }
   },
   "files": {
-    ".env": {
-      "checksum": "2637f1f1030dcb02b177bf49df3e6173"
-    },
-    ".Rprofile": {
-      "checksum": "fe02e7c7926ad435cdb928f0c0626838"
-    },
     "app.R": {
       "checksum": "d664f7dc558d444c25676a7f1365ec8b"
     },
@@ -1426,9 +1420,6 @@
     },
     "prompt-r.md": {
       "checksum": "7dc6e54bd6f61bcc977aadb243866316"
-    },
-    "renv.lock": {
-      "checksum": "0b36091a48cd70b24bcba136a0f25872"
     }
   },
   "users": null
