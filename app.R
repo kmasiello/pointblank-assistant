@@ -34,7 +34,7 @@ server <- function(input, output, session) {
   # Update chat when language changes
   observeEvent(input$language, {
     new_prompt <- if (input$language == 1) {
-      paste(readLines("prompt-py.md"), collapse = "\n")
+      paste(readLines("pointblank-prompt.txt"), collapse = "\n")
     } else {
       paste(readLines("prompt-r.md"), collapse = "\n")
     }
@@ -47,7 +47,7 @@ server <- function(input, output, session) {
     chat(new_chat)
   })
 
-  observeEvent(input$chat_user_input, {
+  observeEvent(ixnput$chat_user_input, {
     chat_append("chat", chat()$stream_async(input$chat_user_input))
   })
 
