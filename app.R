@@ -47,7 +47,7 @@ server <- function(input, output, session) {
     chat(new_chat)
   })
 
-  observeEvent(ixnput$chat_user_input, {
+  observeEvent(input$chat_user_input, {
     chat_append("chat", chat()$stream_async(input$chat_user_input))
   })
 
