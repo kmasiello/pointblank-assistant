@@ -9,7 +9,7 @@ A repository for the 🤖 **Pointblank Assistant** ✨, a chatbot to help you us
 
 ### Package reference:
 
-- [Pointblank for Python](https://github.com/rich-iannone/pointblank)
+- [Pointblank for Python](https://github.com/posit-dev/pointblank)
 
 - [Pointblank for R](https://github.com/rstudio/pointblank)
 
