@@ -53,7 +53,7 @@ server <- function(input, output, session) {
 
   chat_append(
     "chat",
-    "👋 Hi, I'm **Pointblank Assistant**! I'm here to answer questions about [pointblank in R](https://github.com/rstudio/pointblank/) and [pointblank in Python](https://github.com/rich-iannone/pointblank), or to generate code for you."
+    "👋 Hi, I'm **Pointblank Assistant**! I'm here to answer questions about [pointblank in R](https://github.com/rstudio/pointblank/) and [pointblank in Python](https://github.com/posit-dev/pointblank), or to generate code for you."
   )
 }
 
